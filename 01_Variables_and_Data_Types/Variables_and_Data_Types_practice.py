@@ -67,3 +67,20 @@ boolean_value = bool(number) # Integer to Boolean
 print(boolean_value) # Prints True for any non-zero integer and False for zero.
 print(type(boolean_value))
 
+#input function
+# The input() function is used to take input from the user.
+user_input = input("Enter your name: ") # This takes input from the user and stores it.
+print(user_input)
+
+age_input = int(input("Enter your age: "))
+print(age_input)
+
+# String Concatenation
+# We can conacatenate strings using the + operator.
+sentence = "My name is " + user_input + " and I am " + str(age_input) + " years old." # Here we are concatenating the string with the user input and age input.
+print(sentence)
+
+#f-strings
+# f-strings are a way to format strings in Python. They allow us to embed expressions inside string literals, using curly braces {}.
+f_sentence = f"My name is {user_input} and I am {age_input} years old." 
+print(f_sentence)
