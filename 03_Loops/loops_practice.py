@@ -35,6 +35,8 @@ while i < 3:
     print()
     i = i + 1
 
+# Nested loops can be for-for, while-while, for-while or while-for.
+
 # 5. Break Statement
 # The break statement is used to exit a loop prematurely when a certain condition is met.
 # Example: Print numbers from 1 to 5, but stop if the number is 3.
