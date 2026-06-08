@@ -113,3 +113,48 @@ matrix = [
 ]
 print(matrix[1][2]) 
 print(matrix[2][2])
+
+# Tuples
+# Tuple is a ordered immutable collection of items.
+t = (2,7,4) # This is an examle of tuple.
+t = (5) # This is not a tuple , it is an integer.
+print(type(t))
+t = (5,) # This is an tuple.
+print(type(t))
+
+# Accessing Tuple
+# As usal we access tuple by its index positions.
+t = (2,7,4)
+print(t[1])
+
+# Tuple slicing
+# Syntax - tuple_name(start_index:end_index)
+# start index is inclusive, end index is exclusive.
+t_1 = (3,6,4,2,8,5)
+print(t_1[2:5])
+
+# Tuples are immutable(cannot be modified once they are created).
+# t_1[4] = 1 gives an error.
+
+# Tuple methods
+# 1. count() - used to count how many times a element is occured in tuple .
+t_2 = (1,2,2,2,3)
+print(t_2.count(2))
+# 2. index() - used to find position of items in tuple.
+print(t_2.index(2))
+
+# Tuple Packing
+t = 10, 20, 30
+print(t) # python automatically creates tuple
+
+# Tuple unpacking.
+t = 10, 20, 30
+a,b,c = t
+print(a)
+print(b)
+print(c)
+
+# We cannot modify tuple but we can modify list present in tuple.
+t = (10,20,30,[40,50])
+t[3][1] = 60
+print(t)
