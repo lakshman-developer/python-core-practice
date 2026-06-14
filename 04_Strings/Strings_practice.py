@@ -3,9 +3,6 @@
 # You can use single quotes (' ') or double quotes (" ") to create a string.
 # Triple quotes (''' ''' or """ """) can be used for multi-line strings.
 # Example of multi-line string:
-from pydoc import text
-
-
 multi_line_string = """My name is Lakshman.
 I love programming.
 My favorite programming language is Python."""
